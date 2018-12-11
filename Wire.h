@@ -40,6 +40,7 @@ class Wire_ {
     }
 };
 extern Wire_ Wire;
+extern Wire_ Wire1;
 
 class WireMock {
   public:
