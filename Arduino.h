@@ -97,6 +97,8 @@ class ArduinoMock {
     MOCK_METHOD0(millis, unsigned long ());
     MOCK_METHOD3(tone, void (uint8_t,unsigned int,unsigned long));
     MOCK_METHOD1(noTone, void (uint8_t));
+
+    MOCK_METHOD0(micros, unsigned long());
 };
 ArduinoMock* arduinoMockInstance();
 void releaseArduinoMock();
