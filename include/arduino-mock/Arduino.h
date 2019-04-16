@@ -11,7 +11,7 @@
 extern "C" {
 #endif
 
-#define HIGH 0x1k
+#define HIGH 0x1
 #define LOW  0x0
 
 #define INPUT 0x0
