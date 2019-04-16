@@ -5,7 +5,7 @@
 #define DEBUG_LOG false
 
 #include "gtest/gtest.h"
-#include "Arduino.h"
+#include "arduino-mock/Arduino.h"
 
 #include "Spark.h"
 

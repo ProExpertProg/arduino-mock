@@ -23,6 +23,7 @@ CMakeFiles
 cmake_install.cmake
 install_manifest.txt
 Makefile
+CTestTestfile.cmake
 
 #ignore thumbnails created by windows
 Thumbs.db
@@ -57,5 +58,9 @@ _ReSharper*/
 build*/
 *~
 
-#ignore binaries
+#ignore executable binaries
+test/test_all
 *_unittest
+#ignore external lib
+/lib/gmock/gmock/
+/lib/gtest/gtest/

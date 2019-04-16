@@ -1,5 +1,4 @@
 
-//#include "Arduino.h"
 #include "RedBot.h"
 
 static RedBotMotorsMock* redbotMotorMock = NULL;

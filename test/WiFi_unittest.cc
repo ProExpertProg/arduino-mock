@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 #include "WiFi.h"
-#include "Arduino.h"
+#include "arduino-mock/Arduino.h"
 
 WiFi_ wifi;
 

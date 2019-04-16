@@ -3,7 +3,7 @@
 #ifndef RedBot_h
 #define RedBot_h
 
-#include <Arduino.h>
+#include <arduino-mock/Arduino.h>
 
 // Pin aliases for the motor controller.
 #define    L_CTRL_1   2
