@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "Arduino.h"
+#include "arduino-mock/Arduino.h"
 #include "Serial.h"
 
 #include "serialHelper.h"

@@ -1,6 +1,6 @@
 #include "gtest/gtest.h"
 #include "EEPROM.h"
-#include "Arduino.h"
+#include "arduino-mock/Arduino.h"
 using ::testing::Return;
 
 TEST(EEPROM, access) {
