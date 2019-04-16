@@ -20,7 +20,7 @@ public:
     }
 };
 
-class SPI_ {
+class SPIClass {
 public:
     void begin();
 
@@ -51,8 +51,8 @@ public:
     void detachInterrupt();
 };
 
-extern SPI_ SPI;
-extern SPI_ SPI2;
+extern SPIClass SPI;
+extern SPIClass SPI2;
 
 class SPIMock {
 public:
